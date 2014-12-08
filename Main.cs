@@ -117,6 +117,10 @@ namespace GallantDefenderBugFix
 							t.subTypesStr = "Reptile,Turtle";
 							t.name = "Gallant Tortoise";
 
+							t.description = "As long as you have no more units than your opponent, Gallant Tortoise has [Armor] 2.";
+
+							Log (t.description);
+
 							t.flavor = "\"Hold the walls! Protect y-- why are there turtles on the frontlines?!\"\n- Cay, Royal Envoy";
 
 							Log (t.flavor);
